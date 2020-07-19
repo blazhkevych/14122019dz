@@ -1,0 +1,181 @@
+﻿﻿#include <iostream>
+#include <Windows.h>
+
+using namespace std;
+
+int main()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+    cout << "Задание 1: Вывести на экран один куплет любимого стихотворения или песни, с указанием\n";
+    cout << "автора или исполнителя. Используйте escape - последовательности для форматирования.\n";
+    cout << "\n";
+    cout << "Решение для задания №1:\n";
+    SetConsoleOutputCP(866);
+    cout << "\n";
+    cout << "Living easy, living free\n";
+    cout << "Season ticket on a one-way ride\n";
+    cout << "Asking nothing, leave me be\n";
+    cout << "Taking everything in my stride\n";
+    cout << "Don't need reason, don't need rhyme\n";
+    cout << "Ain't nothing I would rather do\n";
+    cout << "Going down, party time\n";
+    cout << "My friends are gonna be there too\n";
+    cout << "\n";
+    cout << "I'm on the highway to hell\n";
+    cout << "On the highway to hell\n";
+    cout << "Highway to hell\n";
+    cout << "I'm on the highway to hell\n";
+    cout << "\n";
+    cout << "...\n";
+    cout << "\n";
+    cout << "AC/DC - Highway to Hell (Angus Young / Malcolm Young / Ronald Scott)\n";
+    cout << "\n\n";
+
+    SetConsoleOutputCP(1251);
+    cout << "Задание 2: Вывести на экран стих «Every hunter wants…» таким образом, чтобы каждый «цвет»\n";
+    cout << "начинался с новой строки и соответствующим количеством табуляций\n";
+    cout << "\n";
+    cout << "Решение для задания №2:\n";
+    cout << "\n";
+    SetConsoleOutputCP(1251);
+    cout << "every\n" << "\r\thunter\n" << "\r\t\twants\n" << "\r\t\t\tto\n" << "\r\t\t\t\tknow\n" << "\r\t\t\t\t\twhere\n" << "\r\t\t\t\t\t\tdoes\n" << "\r\t\t\t\t\t\t\tpheasant\n" << "\r\t\t\t\t\t\t\t\t\tsit";
+    cout << "\n\n";
+
+    SetConsoleOutputCP(1251);
+    cout << "Задание 3: Напишите объявление о продаже чего-нибудь и выведите его на экран, в том виде\n";
+    cout << "как оно должно было бы быть напечатано.\n";
+    cout << "\n";
+    cout << "Решение для задания №3:\n";
+    cout << "\n";
+    cout << "Орфография и стиль автора сохранены :)\n";
+    cout << "\n";
+    SetConsoleOutputCP(866);
+    cout << (char)201 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)187 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "  Продается машин. Такси не ходил  ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "        ВАЗ - 21099 1998 г.        ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "      Салон - мохнатый ткань,      ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "          Руль - мебель,           ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "        Сигнал - ту-лу-ла,         ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "    Музыка - балшой и громкий,     ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "  Задний труба - балшой и толстый  ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "   тел. 8-926-105-87-42 ето мой    ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "  тел. 8-926-848-33-31 ето брат    ";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186 << "\t\t\t\t    " << (char)186 << endl;
+    SetConsoleOutputCP(866);
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "тел." << "тел.";
+    SetConsoleOutputCP(866);
+    cout << (char)124;
+    SetConsoleOutputCP(1251);
+    cout << "тел." << "тел.";
+    SetConsoleOutputCP(866);
+    cout << (char)124;
+    SetConsoleOutputCP(1251);
+    cout << "тел." << "тел.";
+    SetConsoleOutputCP(866);
+    cout << (char)124;
+    SetConsoleOutputCP(1251);
+    cout << "тел." << "тел.";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)186;
+    cout << "892 " << "892 ";
+    cout << (char)124;
+    cout << "892 " << "892 ";
+    cout << (char)124;
+    cout << "892 " << "892 ";
+    cout << (char)124;
+    cout << "892 " << "892 ";
+    cout << (char)186 << endl;
+    cout << (char)186;
+    cout << "610 " << "684 ";
+    cout << (char)124;
+    cout << "610 " << "684 ";
+    cout << (char)124;
+    cout << "610 " << "684 ";
+    cout << (char)124;
+    cout << "610 " << "684 ";
+    cout << (char)186 << endl;
+    cout << (char)186;
+    cout << "587 " << "833 ";
+    cout << (char)124;
+    cout << "587 " << "833 ";
+    cout << (char)124;
+    cout << "587 " << "833 ";
+    cout << (char)124;
+    cout << "587 " << "833 ";
+    cout << (char)186 << endl;
+    cout << (char)186;
+    cout << "42 " << " 31  ";
+    cout << (char)124;
+    cout << "42 " << " 31  ";
+    cout << (char)124;
+    cout << "42 " << " 31  ";
+    cout << (char)124;
+    cout << "42 " << " 31  ";
+    cout << (char)186 << endl;
+
+    cout << (char)186;
+    SetConsoleOutputCP(1251);
+    cout << "мой " << "брат";
+    SetConsoleOutputCP(866);
+    cout << (char)124;
+    SetConsoleOutputCP(1251);
+    cout << "мой " << "брат";
+    SetConsoleOutputCP(866);
+    cout << (char)124;
+    SetConsoleOutputCP(1251);
+    cout << "мой " << "брат";
+    SetConsoleOutputCP(866);
+    cout << (char)124;
+    SetConsoleOutputCP(1251);
+    cout << "мой " << "брат";
+    SetConsoleOutputCP(866);
+    cout << (char)186 << endl;
+    cout << (char)200 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)188 << endl;
+
+
+}
+
+/*
+
+*/
